@@ -20,11 +20,10 @@ def apiOverview(request):
     
     return Response(api_urls)
 
+
     
     # return JsonResponse("I am json file",safe=False)
    
-
-
 @api_view(['GET'])
 def taskList(request):
     
